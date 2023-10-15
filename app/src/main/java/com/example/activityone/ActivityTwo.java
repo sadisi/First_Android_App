@@ -1,5 +1,5 @@
 package com.example.activityone;
-
+//Developer Vilochana Rajapaksha
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
