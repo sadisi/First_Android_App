@@ -26,7 +26,7 @@ public class ActivityTwo extends AppCompatActivity {
         Intent Objintent = new Intent(Intent.ACTION_SEND);
         final Intent chooser;
         Objintent.setData(Uri.parse("mailto:"));
-        Objintent.putExtra(Intent.EXTRA_EMAIL, new String[]{"Vilochana.Rajapaksha2002@gmail.com"});
+        Objintent.putExtra(Intent.EXTRA_EMAIL, new String[]{"example@gmail.com"});
         Objintent.putExtra(Intent.EXTRA_SUBJECT, "Enter your subject here...");
         Objintent.putExtra(Intent.EXTRA_TEXT, "Enter your message here..");
         Objintent.setType("message/rfc822");
